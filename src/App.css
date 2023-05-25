@@ -20,6 +20,7 @@
     justify-content: center;
     margin: 0 auto;
     flex: 1;
+    
   }
   
   h1 {
@@ -60,9 +61,14 @@
   }
   
   .gallery-image {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
     width: 25%;
     margin: 2px;
-    transition: all .5s ease-in-out;
+    transition: all .55555550s ease-in-out;
   }
   
   .gallery-image:hover { transform: scale(1.1); }
